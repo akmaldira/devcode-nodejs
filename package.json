@@ -1,0 +1,22 @@
+{
+  "name": "devcode-backend-node-js",
+  "version": "1.0.0",
+  "description": "It's just for test :)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akmaldiraa@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
